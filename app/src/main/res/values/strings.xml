@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Fake News</string>
+    <string name="hint_user">username</string>
+    <string name="hint_pass">password</string>
+    <string name="ckb_login">Keep Loged in</string>
+    <string name="btn_login">OK</string>
+    <string name="btn_favorite">favorite</string>
+    <string name="btn_unfavorite">unfavorite</string>
+    <string name="save_password">Do you want to save password?</string>
+    <string name="save_confirm">Yes</string>
+    <string name="save_cancel">No</string>
+    <string name="txt_random">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique dui lorem, eget gravida ex ornare in. Sed vitae lacinia dolor. Nullam nec mauris euismod, suscipit augue non, fermentum velit. Donec nisi lectus, maximus sed massa volutpat, maximus gravida augue. Integer euismod erat nunc, sit amet tincidunt ex imperdiet quis. Nullam sit amet rutrum erat. Donec lacinia tristique erat, vitae scelerisque velit pellentesque nec.
+
+Curabitur a dolor sit amet metus mattis fringilla a eu ligula. Praesent eleifend auctor erat nec cursus. Proin volutpat placerat leo at lobortis. Quisque nec nisi at nunc hendrerit tincidunt. Vivamus congue consectetur ex nec pellentesque. Maecenas dictum dui sit amet lectus scelerisque volutpat. Aliquam congue placerat diam, in ultrices nisl. Suspendisse in nulla at leo interdum maximus sed ut neque. Vestibulum a tincidunt mi. Aliquam sit amet posuere velit. Nullam eros nulla, feugiat in neque et, convallis porttitor velit. In non augue eu arcu semper efficitur. Quisque facilisis facilisis lorem, ac posuere lectus vestibulum porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+Maecenas elit ligula, eleifend nec odio in, rhoncus tincidunt justo. Pellentesque imperdiet porta tellus nec ornare. Sed vulputate faucibus ipsum ut ullamcorper. Proin euismod mi non augue posuere iaculis. Curabitur vitae hendrerit neque. Cras vestibulum vestibulum orci id placerat. Nulla a erat id odio vehicula maximus. Fusce non suscipit ligula. Integer volutpat leo ut lectus rhoncus, sit amet pharetra nisl interdum.
+
+Cras lobortis pellentesque lorem, et venenatis nisl efficitur sed. Curabitur mauris justo, varius et semper id, pulvinar eu massa. Nulla tincidunt nunc non mi viverra consequat. Cras pretium ex lorem, eget tempus tellus suscipit aliquet. Pellentesque cursus neque eu ex convallis, eget commodo eros efficitur. Phasellus eget interdum odio. Sed nibh ante, sollicitudin eget massa sit amet, pulvinar suscipit sapien. Nunc iaculis velit nulla, sit amet ullamcorper ex aliquet rhoncus. Suspendisse semper, orci sit amet malesuada finibus, libero enim posuere arcu, tincidunt porta sapien mi id ex. Donec finibus, nisi sed pretium malesuada, libero purus varius neque, ut finibus ipsum diam eu enim. Nullam vitae faucibus tortor. Fusce mi mauris, faucibus sit amet rhoncus sit amet, sodales sit amet augue.
+
+Praesent nec erat purus. Etiam ut nisl nec leo bibendum porta non eget massa. Duis ornare quam non libero fermentum, a fringilla velit maximus. Sed suscipit enim nisl, id porta mi posuere eget. Aenean congue quis metus at volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec eros gravida neque tempus molestie. Sed maximus hendrerit tempus. Curabitur dictum libero ut fermentum varius. Sed ultrices, elit sed vestibulum faucibus, erat sapien vehicula sem, et ultrices quam lectus sed felis. Curabitur et nulla ut mi cursus cursus. </string>
+</resources>
