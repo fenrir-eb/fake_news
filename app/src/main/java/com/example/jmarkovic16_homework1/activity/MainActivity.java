@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-
+                articleAdapter.getFilter().filter(charSequence.toString());
             }
 
             @Override
@@ -73,11 +73,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        RecyclerView recycler = findViewById(R.id.rv_main_list);
-        GridLayoutManager manager = new GridLayoutManager(this,2);
-        recycler.setLayoutManager(manager);
+        initRecycleView();
+    }
+
+    private void initRecycleView(){
 
         articleAdapter = new ArticleAdapter();
+
+        RecyclerView recycler = findViewById(R.id.rv_main_list);
+        recycler.setLayoutManager(new GridLayoutManager(this,2));
         recycler.setAdapter(articleAdapter);
     }
 
