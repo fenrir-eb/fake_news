@@ -33,7 +33,7 @@ public class SplashActivity extends AppCompatActivity {
         if (!keepLogedIn) {
             startActivityWithDelay(LoginActivity.class);
         } else {
-            startActivityWithDelay(ArticleActivity.class);
+            startActivityWithDelay(MainActivity.class);
         }
     }
 

@@ -49,10 +49,10 @@ public class LoginActivity extends AppCompatActivity {
         password = ((EditText)findViewById(R.id.etxt_pass)).getText().toString();
         username = ((EditText)findViewById(R.id.etxt_user)).getText().toString();
         keepLogedIn = ((CheckBox)findViewById(R.id.ckb_login)).isChecked();
-        if(username.isEmpty() || password.isEmpty()) {
-            Toast.makeText(this, "Enter username and password", Toast.LENGTH_SHORT).show();
-            return;
-        }
+//        if(username.isEmpty() || password.isEmpty()) {
+//            Toast.makeText(this, "Enter username and password", Toast.LENGTH_SHORT).show();
+//            return;
+//        }
         saveUsername();
         startArticleActivity();
     }
@@ -66,8 +66,8 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void startArticleActivity(){
-        Intent intent = new Intent(this,ArticleActivity.class);
-        intent.putExtra(ArticleActivity.USERNAME_KEY, username);
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.putExtra(MainActivity.USERNAME_KEY, username);
         startActivity(intent);
         finish();
     }
